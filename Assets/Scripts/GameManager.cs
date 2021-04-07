@@ -2,6 +2,10 @@
 using System.Collections.Generic;
 using UnityEngine;
 
+
+//Unity 3D | Creando VIDEOJUEGOS en español - Tres en raya #3
+//https://www.youtube.com/watch?v=qTbXxSns-zE
+
 public class GameManager : MonoBehaviour
 {
      void Update()

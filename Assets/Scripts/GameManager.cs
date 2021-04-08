@@ -57,7 +57,6 @@ public class GameManager : MonoBehaviour
                 {
                     Debug.Log("is 0");
                 }
-
                 CheckBoard();
             }
         }
@@ -91,7 +90,6 @@ public class GameManager : MonoBehaviour
             ResetGame();
         }
         casillasVacias = 0;
-        
     }
 
 

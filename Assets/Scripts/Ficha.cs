@@ -15,7 +15,8 @@ public class Ficha : MonoBehaviour
 
     void Awake()
     {
-        mGameManager = GameObject.Find("_GameManager").gameObject.GetComponent<GameManager>();
+                        // 1 Al inicio de la ejecucion (AWAKE) & 2 Solo exista una instancia en toda la escena de este componente
+        mGameManager = FindObjectOfType<GameManager>(); //GameObject.Find("_GameManager").gameObject.GetComponent<GameManager>();
     }
 
     public void ChangePlayerShape()
